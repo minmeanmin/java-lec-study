@@ -5,10 +5,10 @@ import java.util.Scanner;
 public class FtoC {
     public static void main(String[] args) {
         double fTemp, cTemp;
-        System.out.println("==============================");
+        System.out.println("===============================");
         System.out.println("1. 화씨->섭씨");
         System.out.println("2. 섭씨->화씨");
-        System.out.println("==============================");
+        System.out.println("===============================");
         System.out.println(" ");
 
         Scanner sc = new Scanner(System.in);
