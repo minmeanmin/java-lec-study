@@ -1,6 +1,6 @@
 package ex03.test;
 
-public class test01 {
+public class Test01 {
     public static void main(String[] args) {
         int age = 45;
 
