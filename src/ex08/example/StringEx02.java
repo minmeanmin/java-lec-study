@@ -13,10 +13,12 @@ public class StringEx02 {
         String password;
 
 
-        String[] tokens = url.split("=");
-        String[] usernameTokens = tokens[1].split("&");
-        username = usernameTokens[0];
-        password = tokens[2];
+        String[] fTokens = url.split("\\?");
+        String[] sTokens = fTokens[1].split("&");
+        String[] usernameTokens = sTokens[0].split("=");
+        String[] passwordTokens = sTokens[1].split("=");
+        username = usernameTokens[1];
+        password = passwordTokens[1];
         System.out.println("username : " + username);
         System.out.println("password : " + password);
 
