@@ -22,6 +22,5 @@ public class StringEx02 {
         System.out.println("username : " + username);
         System.out.println("password : " + password);
 
-
     }
 }
