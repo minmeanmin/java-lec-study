@@ -27,6 +27,5 @@ public class TryEx05 {
 
         Cal4 c4 = new Cal4();
         c4.divide(0);
-
     }
 }
